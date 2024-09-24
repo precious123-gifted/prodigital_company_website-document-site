@@ -1,0 +1,50 @@
+## ProDigital E-commerce Web App
+
+### Requirements
+
+| Category | Dependencies |
+|---|---|
+| **Frontend** | React.js, JavaScript, TypeScript, Tailwind CSS, GSAP, Context API, Redux (optional), SWR |
+| **Backend** | Node.js, Express.js, MongoDB, Mongoose, Cloudinary (optional), [Payment Gateway] |
+| **Frontend Dependencies** | @gsap/react, @prismicio/client (if using a headless CMS), @prismicio/next (if using a headless CMS), @prismicio/react (if using a headless CMS), clsx, lenis, react-hook-form, react-hot-toast, react-image-file-resizer, react-intersection-observer, react-loading-skeleton, react-paystack (if using Paystack), react-toastify, sass, swr, tailwind-merge |
+| **Backend Dependencies** | bcrypt, gridfs-stream (if using file uploads), jsonwebtoken, mongoose, mongoose-gridfs (if using file uploads), multer, multer-gridfs-storage (if using file uploads), next-auth (if using authentication), next-cloudinary (if using Cloudinary) |
+
+### Installation
+
+**1. Clone the repository:**
+
+```bash
+git clone [https://github.com/precious123-gifted/prodigital-company.git](https://github.com/precious123-gifted/prodigital-company.git)
+
+```
+**2. Navigate to the project directory:**
+
+```bash
+cd prodigital-company
+```
+
+**3. Install dependencies:**
+
+```bash
+npm install
+```
+
+
+**4. Configure environment variables:**
+
+Create a .env file in the project's root directory and add your environment variables, such as:
+
+```bash
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_public_key
+MONGODB_URI=your_mongodb_uri
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret   
+```
+
+
+**5. Start the development server:**  
+
+```bash
+npm run dev
+```
