@@ -1,7 +1,7 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "requirements&Installation-Process":"requirements&Installation-Process",
+  "files&functionalites": "files&functionalites",
   "about": {
     "title": "About",
     "type": "page"
