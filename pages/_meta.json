@@ -1,7 +1,7 @@
 {
   "index": "Introduction",
-  "requirements&Installation-Process":"requirements&Installation-Process",
-  "files&functionalites": "files&functionalites",
+  "requirements-&-installation-process": "Requirements & installation Process",
+  "folders-&-file-structure": "Folders & Files Structure",
   "about": {
     "title": "About",
     "type": "page"
