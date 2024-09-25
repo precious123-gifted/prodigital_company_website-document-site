@@ -6,10 +6,16 @@
     "title": "About",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
+  "twitter": {
+    "title": "Twitter ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://x.com/OG_oghenemaro",
+    "newWindow": true
+  },
+  "linkedin": {
+    "title": "LinkedIn ↗",
+    "type": "page",
+    "href": "https://www.linkedin.com/in/oguname-precious-51800020a/",
     "newWindow": true
   }
 }
